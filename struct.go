@@ -7,6 +7,12 @@ type NewsStruct struct {
 	Status string `json:"status"`
 }
 
+type NewsListResponse struct {
+	Code    int         `json:"code"`
+	Message string      `json:"message"`
+	Data    interface{} `json:"data"`
+}
+
 // type NewsStruct struct {
 // 	Name   string `json:"name"`
 // 	Start  string `json:"start"`
